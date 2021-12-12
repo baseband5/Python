@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 
-def main():
-  x,y = inputData()
-  print("Suma = "+str(solve(x,y)))
-
-if __name__ == "__main__":
-  main()
-
 def inputData():
   a = int(input("Podaj a (całkowite): "))
   b = int(input("Podaj b (całkowite): "))
@@ -20,3 +13,9 @@ def solve(a,b):
     suma+=j
   return suma
 
+def main():
+  x,y = inputData()
+  print("Suma = "+str(solve(x,y)))
+
+if __name__ == "__main__":
+  main()

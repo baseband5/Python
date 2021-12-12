@@ -1,12 +1,5 @@
 import math
 
-def main():
-  n = inputData()
-  print(str(round(solve(n))))
-
-if __name__ == "__main__":
-  main()
-
 def inputData():
   n = int(input("Ilość danych: "))
   return n
@@ -19,3 +12,9 @@ def solve(n):
     sum += ((-1)**(x+1))*(math.factorial(a)/math.factorial(x+1))
   return sum
 
+def main():
+  n = inputData()
+  print(str(round(solve(n))))
+
+if __name__ == "__main__":
+  main()

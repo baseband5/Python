@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
 import math
 
-def main():
-  a1()
-  a2()
-  a3()
-  a4()
-  a5()
-  a6()
-  return
-
-if __name__ == "__main__":
-  main()
-
 def a1():
   print("1) Circle circumference")
   radius=float(input("Radius: "))
@@ -57,3 +45,15 @@ def a6():
   ang=float(input("Rad: "))
   solve=ang*180/math.pi
   print("Deg: "+ str(round(solve ,2)))
+
+def main():
+  a1()
+  a2()
+  a3()
+  a4()
+  a5()
+  a6()
+  return
+
+if __name__ == "__main__":
+  main()
