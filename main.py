@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import Lab2 as solve
+import Lab1 as solve
 
 def main():
   solve.main()

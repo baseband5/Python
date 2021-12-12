@@ -1,16 +1,5 @@
 #!/usr/bin/env python3
 
-def main():
-  a1()
-  a2()
-  a3()
-  a4()
-  a5()
-
-if __name__ == "__main__":
-  main()
-
-
 def a1():
   print("1) ",end='')
   print(31+30+29)
@@ -43,3 +32,13 @@ def a5():
   \t|Python|
   \t+------+"""
   print(logo)
+
+def main():
+  a1()
+  a2()
+  a3()
+  a4()
+  a5()
+
+if __name__ == "__main__":
+  main()
