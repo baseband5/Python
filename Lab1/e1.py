@@ -42,5 +42,8 @@ def main():
   print("5) LOGO ")
   a5()
 
+def done():
+  return False
+
 if __name__ == "__main__":
   main()

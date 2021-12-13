@@ -54,5 +54,8 @@ def main():
   a6()
   return
 
+def done():
+  return True
+
 if __name__ == "__main__":
   main()

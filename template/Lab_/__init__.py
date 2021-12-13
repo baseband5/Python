@@ -10,13 +10,13 @@ def main(debug = False):
   else:
     mod1.main()
   
-  print(__name__ +" : mod 2:")
+  print(__name__ +" : exercise 2:")
   if debug:
     print("Done: " + str(mod2.done()))
   else:
     mod2.main()
 
-  print(__name__ +" : mod 3:")
+  print(__name__ +" : exercise 3:")
   if debug:
     print("Done: " + str(mod3.done()))
   else:
@@ -25,5 +25,6 @@ def main(debug = False):
   def done():
     c =( mod1.done() and 
     mod2.done() and 
+    mod3.done() and 
     mod3.done())
     return c
