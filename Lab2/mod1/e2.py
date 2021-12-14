@@ -74,27 +74,27 @@ def a9():
   sum=0
   for i in range (n):
     a=float(input("a"+str(i+1)+": "))
-    sum += math.pow(-1,i+2) * (a/math.factorial(i+1))  
+    sum += math.pow(-1,i+1) * (a/math.factorial(i+1))  
   print("Sum:", sum)
 
 def main():
-  print("1) Simple sum")
+  print("a) Simple sum")
   a1()
-  print("2) Simple multiplication")
+  print("b) Simple multiplication")
   a2()
-  print("3) Sum of absolutes")
+  print("c) Sum of absolutes")
   a3()
-  print("4) Sum of sqrt(abs)")
+  print("d) Sum of sqrt(abs)")
   a4()
-  print("5) Mul of absolutes")
+  print("e) Mul of absolutes")
   a5()
-  print("6) Sum of squares")
+  print("f) Sum of squares")
   a6()
-  print("7) Sum and mul")
+  print("g) Sum and mul")
   a7()
-  print("8) Alternate sum")
+  print("h) Alternate sum")
   a8()
-  print("9) alternate sum with factorial divider")
+  print("i) alternate sum with factorial divider")
   a9()
   return
 
