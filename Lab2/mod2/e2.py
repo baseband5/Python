@@ -12,7 +12,7 @@ def drawStar(t,l):
 
 def a1(t):
   drawStar(t,100)
-
+  turtle.done()
 
 
 def main():

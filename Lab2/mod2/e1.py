@@ -13,25 +13,25 @@ def drawRegular(n,length):
   turtle.done()
 
 
-def a1(t):
+def a1():
   drawRegular(8,100)
 
-def a2(t):
+def a2():
   drawRegular(9,100)
 
-def a3(t):
+def a3():
   drawRegular(10,100)
 
-def a4(t):
+def a4():
   drawRegular(12,100)
 
-def a5(t):
+def a5():
   drawRegular(15,100)
 
-def a6(t):
+def a6():
   drawRegular(18,100)
 
-def a7(t):
+def a7():
   drawRegular(20,100)
 
 

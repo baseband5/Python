@@ -1,18 +1,37 @@
-#!/usr/bin/env python3
+import turtle
+
+
+
+def drawHand(tur,radius,dist,delta,ang):
+  tur.penup()
+  tur.left(ang)
+  tur.forward(radius-dist)
+  tur.pendown()
+  tur.forward(dist)
+  tur.penup()
+  tur.forward(delta)
+  return
 
 def a1():
-    i=64
-    while i:
-        print("Mężny bądź, chroń pułk twój i sześć flag")
-        i-=1
-#Same as zażółć gęślą jaźń this phrase has all polish diactric marks
-  
+  clock=[None]*13
+  scr = turtle.Screen()
+  scr.setup(500,500)
+  scr.bgcolor("#90EE90")
+
+  for i in range(13):
+    clock[i]=turtle.Turtle()
+    clock[i].shape("turtle")
+    clock[i].pencolor("#0000ff")
+    if i==12:
+      break
+    drawHand(clock[i],50,4,15,360/12*i)
+    turtle.done()
+
 def main():
-  print("a) String loop")
   a1()
 
 def done():
-  return False
+  return True
 
 if __name__ == "__main__":
   main()
