@@ -1,18 +1,28 @@
 #!/usr/bin/env python3
+import turtle
 
-def a1():
-    i=64
-    while i:
-        print("Mężny bądź, chroń pułk twój i sześć flag")
-        i-=1
-#Same as zażółć gęślą jaźń this phrase has all polish diactric marks
-  
+
+
+
+def drawStar(t,l):
+    for i in range(5):
+        t.forward(l)
+        t.right(360/2.5)
+
+
+def a1(t):
+  drawStar(t,100)
+
+
+
 def main():
-  print("a) String loop")
-  a1()
+  scr = turtle.Screen()
+  tur = turtle.Turtle()
+  a1(tur)
+
 
 def done():
-  return False
+  return True
 
 if __name__ == "__main__":
   main()
