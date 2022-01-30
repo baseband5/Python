@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-
 #Use for import specific Lecturers or Laboratory
-import Lab5 as solve
+import Egzamin.egzam as solve
 
 def main():
   #For all solutions in solve use
-  solve.mod4.e3.main()
+  solve.main()
   #For all solutions from exercise e2,
   #solve.e2.main()
   #For specific solution from exercise e, answer a
