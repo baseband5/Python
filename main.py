@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 #Use for import specific Lecturers or Laboratory
 import Lab2 as solve
 
